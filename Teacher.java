@@ -1,3 +1,4 @@
+package gb;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,12 +10,7 @@ public class Teacher {
         this.name = name; 
         this.experience = experience; 
     } 
-        /*
-         * Класс Teacher содержит два поля: имя учителя и опыт работы. 
-         * Конструкторкласса принимает два параметра и инициализирует соответствующие поля. 
-         * Дляудобства отображения объекта класса Teacher переопределен метод toString().
-         */
-
+       
     public String getName() { 
         return name; 
     } 
